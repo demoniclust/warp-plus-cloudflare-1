@@ -1,5 +1,5 @@
 # warp-plus-cloudflare
-![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare)
+![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare) ![downloads](https://img.shields.io/github/downloads/aliilapro/warp-plus-cloudflare)
 
 **Note: This script was not written by me. I just completed it.** 😉
 
