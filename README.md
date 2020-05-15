@@ -1,5 +1,5 @@
 # warp-plus-cloudflare
-![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare) ![GitHub stars](https://img.shields.io/github/stars/aliilapro/warp-plus-cloudflare?style=social) 
+![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare) ![GitHub stars](https://img.shields.io/github/stars/aliilapro/warp-plus-cloudflare) 
 
 **Note: This script was not written by me. I just completed it.** 😉
 --------------------------------------------------------------------
@@ -26,4 +26,3 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 4. Under Client Configuration > Copy the ID
 
 ![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/script.png)
-![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/pic.png)
