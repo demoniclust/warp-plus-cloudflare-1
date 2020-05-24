@@ -18,7 +18,9 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 --------------------------------------------------------------------
 ### [?] How to use this script for ( *android* )
 - Open Termux
-- Enter Command `pkg install git pkg install python && pip install requests`
+- Install git `pkg install git`
+- Install python `pkg install python`
+- Install module requests `pip install requests`
 - Clone the git `git clone https://github.com/aliilapro/warp-plus-cloudflare.git`
 - Open script `cd warp-plus-cloudflare`
 - Run script `python3 wp-plus.py`
