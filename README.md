@@ -2,19 +2,22 @@
 ![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare) ![GitHub stars](https://img.shields.io/github/stars/aliilapro/warp-plus-cloudflare) ![](https://img.shields.io/badge/The%20Long%20Hope-%F0%9F%98%8E%E2%9C%8C-green)
 --------------------------------------------------------------------
 ### With this script, you can recharge your account indefinitely.📱
-
+--------------------------------------------------------------------
 ### [!] About warp+
 WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve higher speeds and ensure your connection is encrypted across the long haul of the Internet. [Read more](https://blog.cloudflare.com/announcing-warp-plus/)
-
-
+--------------------------------------------------------------------
+### Download App For windows os
+[wp-plus.exe](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
+--------------------------------------------------------------------
 ### [?] How to use this script for ( *windows, mac, linux* )
-- First download python and install in your system. [Python 3.6](https://www.python.org/downloads/release/python-360/)
+- First download python and install in your system. [Python +3.7](https://www.python.org/downloads/)
 - Install module requests
 - `pip install requests` copy in cmd or terminal and click enter btn
 - Download [this project](https://github.com/aliilapro/warp-plus-cloudflare/archive/master.zip) and extract it
 - Open a cmd or terminal or shell in the extracted directory
 - Enter `python wp-plus.py`
 - Run the script and use it
+⛔Note if you get error for use script use this version [Python 3.6](https://www.python.org/downloads/release/python-360/)
 --------------------------------------------------------------------
 ### [?] How to use this script for ( *android* )
 - Open Termux
