@@ -31,4 +31,6 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 3. Advanced > Diagonistics
 4. Under Client Configuration > Copy the ID
 --------------------------------------------------------------------
-![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/script.png)
+![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-m.png)
+![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-p.png)
+![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-d.png)
