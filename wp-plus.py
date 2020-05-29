@@ -1,4 +1,4 @@
-import requests
+import urllib.request
 import json
 import datetime
 import random
@@ -6,8 +6,8 @@ import string
 import time
 import os
 import sys
-os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
-os.system('cls')
+os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO (version 3.0.0)")
+os.system('cls' if os.name == 'nt' else 'clear')
 print('      _______ _      __________________       _______ _______ _______ _______\n'
 '     (  ___  | \     \__   __|__   __( \     (  ___  |  ____ |  ____ |  ___  )\n'
 '     | (   ) | (        ) (     ) (  | (     | (   ) | (    )| (    )| (   ) |\n'
@@ -18,6 +18,7 @@ print('      _______ _      __________________       _______ _______ _______ ___
 '     |/     \(_______|_______|_______(_______//     \|/      |/   \__(_______)\n')
 print ("[+] ABOUT SCRIPT:")
 print ("[-] With this script, you can getting unlimited GB on Warp+.")
+print ("[-] Version: 3.0.0")
 print ("--------")
 print ("[+] THIS SCRIPT CODDED BY ALIILAPRO") 
 print ("[-] SITE: aliilapro.github.io") 
@@ -35,7 +36,7 @@ def digitString(stringLength):
 		digit = string.digits
 		return ''.join((random.choice(digit) for i in range(stringLength)))    
 	except Exception as error:
-		print(error)    
+		print(error)	
 url = f'https://api.cloudflareclient.com/v0a{digitString(3)}/reg'
 def run():
 	try:
@@ -48,15 +49,17 @@ def run():
 				"tos": datetime.datetime.now().isoformat()[:-3] + "+07:00",
 				"type": "Android",
 				"locale": "zh-CN"}
-		bodyString = json.dumps(body)
+		data = json.dumps(body).encode('utf8')
 		headers = {'Content-Type': 'application/json; charset=UTF-8',
 					'Host': 'api.cloudflareclient.com',
 					'Connection': 'Keep-Alive',
 					'Accept-Encoding': 'gzip',
 					'User-Agent': 'okhttp/3.12.1'
 					}
-		r = requests.post(url, data=bodyString, headers=headers)
-		return r
+		req         = urllib.request.Request(url, data, headers)
+		response    = urllib.request.urlopen(req)
+		status_code = response.getcode()	
+		return status_code
 	except Exception as error:
 		print(error)	
 
@@ -64,9 +67,9 @@ g = 0
 b = 0
 while True:
 	result = run()
-	if result.status_code == 200:
+	if result == 200:
 		g = g + 1
-		os.system('cls')
+		os.system('cls' if os.name == 'nt' else 'clear')
 		print("")
 		print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
 		print("")
@@ -81,10 +84,10 @@ while True:
 		print("[*] After 18 seconds, a new request will be sent.")
 		time.sleep(18)
 	else:
-		b = b + 1
-		os.system('cls')
+		os.system('cls' if os.name == 'nt' else 'clear')
 		print("")
 		print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
 		print("")
 		print("[:(] Error when connecting to server.")
-		print(f"[#] Total: {g} Good {b} Bad")	
+		print(f"[#] Total: {g} Good {b} Bad")
+		b = b + 1	
