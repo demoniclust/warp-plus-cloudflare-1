@@ -19,8 +19,6 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 - Open a cmd or terminal or shell in the extracted directory
 - Enter `python wp-plus.py`
 - Run the script and use it
-
-⛔Note if you get error for use script use this version [Python 3.6](https://www.python.org/downloads/release/python-360/)
 --------------------------------------------------------------------
 ### [?] How to use this script for ( *android* )
 - Open Termux
