@@ -13,8 +13,6 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 
 ### [?] How to use this script for ( *windows, mac, linux* )
 - First download python and install in your system. [Python +3.8](https://www.python.org/downloads/)
-- Install module requests
-- `pip install requests` copy in cmd or terminal and click enter btn
 - Download [this project](https://github.com/aliilapro/warp-plus-cloudflare/archive/master.zip) and extract it
 - Open a cmd or terminal or shell in the extracted directory
 - Enter `python wp-plus.py`
@@ -24,7 +22,6 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 - Open Termux
 - Install git `pkg install git`
 - Install python `pkg install python`
-- Install module requests `pip install requests`
 - Clone the git `git clone https://github.com/aliilapro/warp-plus-cloudflare.git`
 - Open script `cd warp-plus-cloudflare`
 - Run script `python3 wp-plus.py`
