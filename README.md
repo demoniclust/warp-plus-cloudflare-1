@@ -8,7 +8,10 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 
 
 ### Download App For windows os
-[wp-plus.exe](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
+• NEW [wp-plus.exe version 4.0.0](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
+• [wp-plus.exe version 3.0.0](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
+
+ 
 
 
 ### [?] How to use this script for ( *windows, mac, linux* )
