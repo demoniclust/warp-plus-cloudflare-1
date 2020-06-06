@@ -2,9 +2,8 @@
 ![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare) ![GitHub stars](https://img.shields.io/github/stars/aliilapro/warp-plus-cloudflare) ![](https://img.shields.io/badge/The%20Long%20Hope-%F0%9F%98%8E%E2%9C%8C-green)
 --------------------------------------------------------------------
 
-> ## :info: Notice:
-> ## This project was transferred to the following link. 
-[warpx](https://github.com/aliilapro/warpx)
+> ## Note:
+> ## This project was transferred to the following link.[warpx](https://github.com/aliilapro/warpx)
 
 
 ### [!] About warp+
