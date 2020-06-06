@@ -11,14 +11,13 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 
 ### Download App For windows os (New version 4.0)
 
-• [wp-plus.exe version 4.0.0](http://bayanbox.ir/download/3113538751570579786/wp-plus-version4.0.zip)
+- [wp-plus.exe version 4.0.0](http://bayanbox.ir/download/3113538751570579786/wp-plus-version4.0.zip)
 
-• [wp-plus.exe version 3.0.0](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
+- [wp-plus.exe version 3.0.0](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
 
  ### Test the online version
  
- [![Run on Repl.it](https://repl.it/badge/github/aliilapro/warp)](https://warp.aliilapro.repl.run)
-
+ - [![Run on Repl.it](https://repl.it/badge/github/aliilapro/warp)](https://warp.aliilapro.repl.run)
 
 ### [?] How to use this script for ( *windows, mac, linux* )
 - First download python and install in your system. [Python +3.8](https://www.python.org/downloads/)
