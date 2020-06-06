@@ -10,7 +10,7 @@ A project for getting unlimited GB on Warp+ ( https://1.1.1.1/ )
 
 ### [?!] Changelog
 
-- Fix server connection ( v4.0 )
+- Fix server connection ( v 4.0 )
 
 ### Download App For windows os (New version 4.0)
 
@@ -22,20 +22,21 @@ A project for getting unlimited GB on Warp+ ( https://1.1.1.1/ )
  
  - [![Run on Repl.it](https://repl.it/badge/github/aliilapro/warp)](https://warp.aliilapro.repl.run)
 
-### [?] How to use this script for ( *windows, mac, linux* )
-- First download python and install in your system. [Python +3.8](https://www.python.org/downloads/)
-- Download [this project](https://github.com/aliilapro/warp-plus-cloudflare/archive/master.zip) and extract it
-- Open a cmd or terminal or shell in the extracted directory
-- Enter `python wp-plus.py`
-- Run the script and use it
+### [?] How to use this script on ( windows, mac, linux )
+1. First download python and install in your system. [Python +3.8](https://www.python.org/downloads/)
+2. Download [this project](https://github.com/aliilapro/warp-plus-cloudflare/archive/master.zip) and extract it
+3. Open a cmd or terminal or shell in the extracted directory
+4. Enter `python wp-plus.py`
+5. Run the script and use it
 --------------------------------------------------------------------
-### [?] How to use this script for ( *android* )
-- Open Termux
-- Install git `pkg install git`
-- Install python `pkg install python`
-- Clone the git `git clone https://github.com/aliilapro/warp-plus-cloudflare.git`
-- Open script `cd warp-plus-cloudflare`
-- Run script `python3 wp-plus.py`
+### [?] How to use this script on ( android )
+1. If it is not installed on your device, download it here. [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_GB)
+2. Open Termux app
+3. Install git    `pkg install git`
+4. Install python `pkg install python`
+5. Clone the git  `git clone https://github.com/aliilapro/warp-plus-cloudflare.git`
+6. Open script    `cd warp-plus-cloudflare`
+7. Run script     `python3 wp-plus.py`
 --------------------------------------------------------------------
 ### [?] How to get the warp+ ID?
 1. Open 1.1.1.1 App
