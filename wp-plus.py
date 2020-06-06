@@ -6,10 +6,7 @@ import string
 import time
 import os
 import sys
-import pathlib
-script_version = '4.0.0'
-window_title   = f"WARP-PLUS-CLOUDFLARE By ALIILAPRO (version {script_version})"
-os.system('title ' + window_title if os.name == 'nt' else 'PS1="\[\e]0;' + window_title + '\a\]"; echo $PS1')
+os.system("title WARP-PLUS-CLOUDFLARE By ALIILAPRO")
 os.system('cls' if os.name == 'nt' else 'clear')
 print('      _______ _      __________________       _______ _______ _______ _______\n'
 '     (  ___  | \     \__   __|__   __( \     (  ___  |  ____ |  ____ |  ___  )\n'
@@ -21,49 +18,13 @@ print('      _______ _      __________________       _______ _______ _______ ___
 '     |/     \(_______|_______|_______(_______//     \|/      |/   \__(_______)\n')
 print ("[+] ABOUT SCRIPT:")
 print ("[-] With this script, you can getting unlimited GB on Warp+.")
-print (f"[-] Version: {script_version}")
+print ("[-] Version: 4.0.0")
 print ("--------")
 print ("[+] THIS SCRIPT CODDED BY ALIILAPRO") 
 print ("[-] SITE: aliilapro.github.io") 
 print ("[-] TELEGRAM: aliilapro")
 print ("--------")
-
-def newID():
-	while True:
-		referrer  = input("[#] Enter the WARP+ ID:")
-		user_input = input(f"[?] Your ID = ({referrer}) is it correct? (y/n):")
-		if user_input == "y":
-			save_id = input("[?] Do you want to save your ID? (y/n):")
-			if save_id == "y":
-			    with open("referrer.txt","w") as file:
-				    file.write(referrer)
-			    return referrer
-			elif save_id == "n":
-				return referrer
-			else:
-			    print(f"\"{save_id}\" is not a valid parameter.")
-		elif user_input == "n":
-			user_input = None
-		else:
-			print(f"\"{user_input}\" is not a valid parameter.")
-
-def progressBar():
-	animation     = ["[□□□□□□□□□□]","[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]"]
-	progress_anim = 0
-	save_anim     = animation[progress_anim % len(animation)]
-	percent       = 0
-	while True:
-		for i in range(10):
-			percent += 1
-			sys.stdout.write(f"\r[+] Waiting response...  " + save_anim + f" {percent}%")
-			sys.stdout.flush()
-			time.sleep(0.075)
-		progress_anim += 1
-		save_anim = animation[progress_anim % len(animation)]
-		if percent == 100:
-			sys.stdout.write("\r[+] Request completed... [■■■■■■■■■■] 100%")
-			break
-
+referrer = input("[#] Enter the WARP+ ID:")
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
@@ -100,49 +61,33 @@ def run():
 		status_code = response.getcode()	
 		return status_code
 	except Exception as error:
-		print("")
 		print(error)	
-
-if pathlib.Path("referrer.txt").exists():
-	while True:
-		user_input = input("[?] Do you want to use saved WARP+ ID? (y/n):")
-		if user_input == "y":
-			with open("referrer.txt","r") as file:
-				referrer = file.read().strip()
-			break
-		elif user_input == "n":
-			referrer = newID()
-			break
-		else:
-			print(f"\"{user_input}\" is not a valid parameter.")
-else:
-	referrer = newID()
 
 g = 0
 b = 0
 while True:
-	os.system('cls' if os.name == 'nt' else 'clear')
-	print("")
-	print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
-	print("")
-	sys.stdout.write("\r[+] Sending request...   [□□□□□□□□□□] 0%")
-	sys.stdout.flush()
 	result = run()
 	if result == 200:
-		g += 1
-		progressBar()
+		g = g + 1
+		os.system('cls' if os.name == 'nt' else 'clear')
+		print("")
+		print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
+		print("")
+		animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%", "[■■■■□□□□□□] 40%", "[■■■■■□□□□□] 50%", "[■■■■■■□□□□] 60%", "[■■■■■■■□□□] 70%", "[■■■■■■■■□□] 80%", "[■■■■■■■■■□] 90%", "[■■■■■■■■■■] 100%"] 
+		for i in range(len(animation)):
+			time.sleep(0.5)
+			sys.stdout.write("\r[+] Preparing... " + animation[i % len(animation)])
+			sys.stdout.flush()
 		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB has been successfully added to your account.")
 		print(f"[#] Total: {g} Good {b} Bad")
-		for i in range(18,0,-1):
-			sys.stdout.write(f"\r[*] After {i} seconds, a new request will be sent.")
-			sys.stdout.flush()
-			time.sleep(1)
+		print("[*] After 18 seconds, a new request will be sent.")
+		time.sleep(18)
 	else:
-		b += 1
+		b = b + 1
+		os.system('cls' if os.name == 'nt' else 'clear')
+		print("")
+		print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
+		print("")
 		print("[:(] Error when connecting to server.")
-		print(f"[#] Total: {g} Good {b} Bad")
-		for i in range(10,0,-1):
-			sys.stdout.write(f"\r[*] Retrying in {i}s...")
-			sys.stdout.flush()
-			time.sleep(1)
+		print(f"[#] Total: {g} Good {b} Bad")	
