@@ -7,9 +7,7 @@
 WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve higher speeds and ensure your connection is encrypted across the long haul of the Internet. [Read more](https://blog.cloudflare.com/announcing-warp-plus/)
 
 
-### Download App For windows os
-
-- New version (4.0)
+### Download App For windows os (New version 4.0)
 
 • [wp-plus.exe version 4.0.0](http://bayanbox.ir/download/3113538751570579786/wp-plus-version4.0.zip)
 
