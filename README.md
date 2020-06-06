@@ -1,7 +1,6 @@
 # warp-plus-cloudflare
 ![Code Size](https://img.shields.io/github/languages/code-size/aliilapro/warp-plus-cloudflare) ![Top Language](https://img.shields.io/github/languages/top/aliilapro/warp-plus-cloudflare) ![GitHub stars](https://img.shields.io/github/stars/aliilapro/warp-plus-cloudflare) ![](https://img.shields.io/badge/The%20Long%20Hope-%F0%9F%98%8E%E2%9C%8C-green)
 --------------------------------------------------------------------
-### With this script, you can recharge your account indefinitely.📱
 
 ### [!] About warp+
 WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve higher speeds and ensure your connection is encrypted across the long haul of the Internet. [Read more](https://blog.cloudflare.com/announcing-warp-plus/)
@@ -16,7 +15,9 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 
 • [wp-plus.exe version 3.0.0](http://bayanbox.ir/download/6017786215883517166/wp-plus.zip)
 
+ ### Test the online version
  
+ [![Run on Repl.it](https://repl.it/badge/github/aliilapro/warp)](https://warp.aliilapro.repl.run)
 
 
 ### [?] How to use this script for ( *windows, mac, linux* )
