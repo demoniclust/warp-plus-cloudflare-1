@@ -46,6 +46,7 @@ A project for getting unlimited GB on Warp+ ( https://1.1.1.1/ )
 3. Advanced > Diagonistics
 4. Under Client Configuration > Copy the ID
 --------------------------------------------------------------------
+![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-g.png)
 ![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-m.png)
 ![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-p.png)
 ![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-d.png)
