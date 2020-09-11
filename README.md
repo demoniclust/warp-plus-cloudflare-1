@@ -10,11 +10,13 @@ A project for getting unlimited GB on Warp+ ( https://1.1.1.1/ )
 
 ### [?!] Changelog
 
-- Fix server connection ( v 4.0 )
+- Fix gui version ( v 2.0 )
 
 ### Download App For windows os
 
-- [wp-plus.exe version GUI](http://bayanbox.ir/download/3829072951471573362/wp-plus-GUI.zip)
+- [wp-plus.exe version GUI 2.0](https://github.com/ALIILAPRO/warp-plus-cloudflare/releases/download/gui-v2/wp-plus.GUI.zip)
+
+- [wp-plus.exe version GUI 1.0](http://bayanbox.ir/download/3829072951471573362/wp-plus-GUI.zip)
 
 - [wp-plus.exe version 4.0.0](http://bayanbox.ir/download/3113538751570579786/wp-plus-version4.0.zip)
 
