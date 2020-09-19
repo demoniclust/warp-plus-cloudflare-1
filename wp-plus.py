@@ -7,11 +7,12 @@ import time
 import os
 import sys
 import asyncio
-from Config import Config
 import telepot
+from Config import Config
+import readable_time
 
 bot = telepot.Bot(Config.BOT_TOKEN)
-
+StartTime = time.time()
 bot.sendMessage(Config.LOG_CHAT_ID,
                 'WARP+ Logging start.') 	
 
@@ -78,10 +79,12 @@ while True:
 		
   
 		# bot-logger
+		uptime = readable_time.get_readable_time((time.time() - StartTime))
 		bot.sendMessage(Config.LOG_CHAT_ID,
                        	 f"\n{g} GB has been successfully added to your account."
                          f"\nTotal: {g} Good {b} Bad"
                          "\nAfter 18 seconds, a new request will be sent."
+                         f"\nBot uptime: {uptime}."
                          "\nRunning by: @spookyanii")
 		time.sleep(18)
 	else:
