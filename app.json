@@ -1,0 +1,28 @@
+{
+    "name": "Warp+ // logger",
+    "keywords": [
+      "telegram",
+      "bot",
+      "heroku"
+    ],
+    "repository": "https://github.com/anilchauhanxda/warp-plus-cloudflare",
+    "website": "https://meanii.me",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Put your bot token."
+      },
+      "LOG_CHAT_ID": {
+        "description": "Put here channel id -  (not usernames).",
+        "value": ""
+      },
+      "LICENSE_KEY": {
+        "description": "put warp license."
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }

@@ -8,9 +8,8 @@ WARP+ uses Cloudflare’s virtual private backbone, known as Argo, to achieve hi
 ### [!] About Script warp-plus-cloudflare (wp-plus.py)
 A project for getting unlimited GB on Warp+ ( https://1.1.1.1/ ) 
 
-### [?!] Changelog
-
-- Fix gui version ( v 2.0 )
+### Deploy to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Download App For windows os
 
@@ -47,8 +46,4 @@ A project for getting unlimited GB on Warp+ ( https://1.1.1.1/ )
 2. Click on the Hamburger Menu Icon ☰
 3. Advanced > Diagonistics
 4. Under Client Configuration > Copy the ID
---------------------------------------------------------------------
-![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-g.png)
-![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-m.png)
-![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-p.png)
-![](https://github.com/ALIILAPRO/warp-plus-cloudflare/blob/master/sc/sc-d.png)
+
